@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00B8D4"
+        android:text="Learning Android "
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Satwik"
+        android:textSize="20dp"
+        android:textColor="#242A2C"
+        />
+
+    <EditText
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Your Name" />
+
+    <EditText
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mail Id" />
+
+    <EditText
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="Accept terms and conditions"
+
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFD600"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already signup?"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Log in"
+        android:textColor="#033C55"
+        />
+
+</LinearLayout>
+
